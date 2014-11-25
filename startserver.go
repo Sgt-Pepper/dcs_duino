@@ -14,7 +14,7 @@ func main() {
 			IP:   net.ParseIP("127.0.0.1"),
 		},
 	}
-	s.CreateDispatcher()
+	
 	s.StartListening()
 
 }
